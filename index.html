@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="keywords" content="Html, css, javascript">
+        <meta name="description" content="Javascript-DOM_Design.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Javascript - DOM</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/323a968cf1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="top" class="top">
+            <header id="subHeader">
+                <h1 class="subSubHeader">Bookmak-R</h1>
+                <h3 class="subSubHeader-small">Turn You into a Book</h3>
+                <input type="text" id="searchBar" class="searchBar" accesskey="S" name="" placeholder="Search books.....">
+            </header>
+        </div>
+
+        <div class="list-header">
+            <header class="subList-header">
+                <h1 class="subSubList-header">Published Books</h1>
+            </header>
+        </div>
+
+        <div id="list" class="list">
+            <ul class="uList" id="uList">
+                <li> <i id="bookIcon" class="fas fa-book" class="bookIcon"></i> <span class="bookName">&nbsp;&nbsp;C++ by Ebalgurusami </span> <abbr title="The Book will be Removed from the List!"> <a href="#"> Remove  <i class="fas fa-times"> </i> </a> </abbr></li>
+                <li> <i id="bookIcon" class="fas fa-book" class="bookIcon"></i> <span class="bookName">&nbsp;&nbsp;Masters & Margarita </span> <abbr title="The Book will be Removed from the List!"> <a href="#"> Remove  <i class="fas fa-times"> </i> </a> </abbr> </li>
+                <li> <i id="bookIcon" class="fas fa-book" class="bookIcon"></i> <span class="bookName">&nbsp;&nbsp;Logo ko Chutiya Kese Banaya Jaye </span> <abbr title="The Book will be Removed from the List!"> <a href="#">  Remove <i class="fas fa-times"> </i> </a> </abbr> </li>
+            </ul>
+        </div>
+
+        <div class="addBox" id="addBox">
+            <header>
+                <input type="text" name="" placeholder="e.g Head First Java by Charles Darvin">
+                <a href="#" class="addBtn"> <i class="fas fa-plus"></i> ADD </a>
+            </header>
+        </div>
+<!--  ________________________________________________________________________ -->
+<!--- |______________________Script Tag is Here Be-Aware_____________________| -->
+        <script type="text/javascript" src="source.js"></script>
+    </body>
+</html>
